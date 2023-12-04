@@ -1,0 +1,130 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #666666;
+  color: #f0f0f0;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+article {
+  border: 1px solid #cccccc;
+  padding: 20px;
+  background-color: #999999;
+}
+
+article h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: #f0f0f0;
+}
+
+article p {
+  color: #666666;
+}
+
+article a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #666666;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+img {
+  width: 1920px;
+  object-fit: scale-down;
+}
+
+.color-black {
+  background-color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 1 0px;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.carousel-inner {  
+  max-width: 50%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
