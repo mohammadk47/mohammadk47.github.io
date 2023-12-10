@@ -152,6 +152,20 @@ footer {
   padding-left: 400px;
 }
 
+.quote {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: 'Roboto Serif', serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+.hiring
+{
+  width: 100%;  /*width of parent container*/
+  /* object-fit: contain; */
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .column {

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>hiring</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <!-- navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand p-3" href="#">Extendicare Kingston</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="joinus.html">Joing Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hiring.html">Apply Now</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="position.html">Position</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+
+
+<!-- Header -->
+<header class="w3-center bg-dark" >
+  <div class="container">
+    <img class="hiring" src="hiring.jpg" alt="" class="cover-page">
+    <div class="center">
+      <h1 class="w3-margin w3-jumbo">
+        Building The Better Future</h1>
+      <a href="hiring.html">
+        <button class="w3-button w3-black w3-large w3-margin-top"> Apply Now</button>
+      </a>
+    </div>
+  </div>
+</header>
+
+
+<!-- First Grid -->
+
+<div class="container ">
+  <h1 class="display-5 pt-5 pb-2">Join Us</h1>
+  <p class="w3-text-grey">
+    At Extendicare, we strive to provide a diverse work environment in which employees are respected as professionals and there is open communications between all disciplines. We hire people with the skill, knowledge and talent to develop and implement innovative programs and services to improve the living and working environment for residents and the team members who care for them.
+
+Employees are truly our greatest asset. If you join the Extendicare team, your continued growth and career development is critical to our success and we will provide you with the required opportunities to expand your abilities.
+If you are interested in Extendicare’s team approach, ask us for more information and join us.
+  </p>
+<p class="quote">
+    "Each and every member of the Extendicare team values their residents, their patients and each other."
+</p>
+  
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Family in Every Face, Care in Every Corner.</h1>
+</div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+</script>
+
+</body>
+</html>
